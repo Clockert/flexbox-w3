@@ -50,7 +50,7 @@ async function loadResources() {
   populateResources(data);
 
   // Populate filter options dynamically
-  populateFilterOptions(data.categories);
+  populateFilterOptions(data);
 }
 
 // Function to populate resources based on data
@@ -94,7 +94,9 @@ function filterResources() {
 
   const filteredData = {
     uiUx: window.resourcesData.uiUx.filter((resource) =>
-      selectedCategories.includes(resource.category)
+      resource.categories
+        ? resource.categories.some((cat) => selectedCategories.includes(cat))
+        : selectedCategories.includes(resource.category)
     ),
     htmlCss: window.resourcesData.htmlCss.filter((resource) =>
       resource.categories
@@ -102,10 +104,14 @@ function filterResources() {
         : selectedCategories.includes(resource.category)
     ),
     javascript: window.resourcesData.javascript.filter((resource) =>
-      selectedCategories.includes(resource.category)
+      resource.categories
+        ? resource.categories.some((cat) => selectedCategories.includes(cat))
+        : selectedCategories.includes(resource.category)
     ),
     tools: window.resourcesData.tools.filter((resource) =>
-      selectedCategories.includes(resource.category)
+      resource.categories
+        ? resource.categories.some((cat) => selectedCategories.includes(cat))
+        : selectedCategories.includes(resource.category)
     ),
   };
 
@@ -113,10 +119,25 @@ function filterResources() {
 }
 
 // Function to populate filter options dynamically
-function populateFilterOptions(categories) {
+function populateFilterOptions(data) {
   const filterOptionsContainer = document.getElementById("filter-options");
 
-  categories.forEach((category) => {
+  // Collect all categories used by items
+  const usedCategories = new Set();
+  Object.values(data).forEach((categoryArray) => {
+    categoryArray.forEach((item) => {
+      if (item.categories) {
+        item.categories.forEach((cat) => usedCategories.add(cat));
+      } else {
+        usedCategories.add(item.category);
+      }
+    });
+  });
+
+  // Convert Set to Array and sort alphabetically
+  const sortedCategories = Array.from(usedCategories).sort();
+
+  sortedCategories.forEach((category) => {
     const label = document.createElement("label");
     const input = document.createElement("input");
     input.type = "checkbox";
