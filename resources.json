@@ -320,6 +320,13 @@
       "categories": ["Tools", "AI"],
       "description": "AI research and deployment company that aims to ensure that artificial general intelligence benefits all of humanity.",
       "link": "https://openai.com"
+    },
+    {
+      "icon": "fa-brands fa-netlify",
+      "title": "Netlify",
+      "categories": ["Tools", "Hosting"],
+      "description": "Platform for automating modern web projects with continuous deployment, serverless functions, and more.",
+      "link": "https://www.netlify.com"
     }
   ]
 }
