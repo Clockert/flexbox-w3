@@ -322,7 +322,7 @@
       "link": "https://openai.com"
     },
     {
-      "icon": "fa-brands fa-netlify",
+      "icon": "<fa-solid fa-diamond",
       "title": "Netlify",
       "categories": ["Tools", "Hosting"],
       "description": "Platform for automating modern web projects with continuous deployment, serverless functions, and more.",
