@@ -291,6 +291,26 @@ header {
   color: #c084fc;
 }
 
+.cat-color {
+  background-color: rgba(255, 193, 7, 0.2);
+  color: #ffc107;
+}
+
+.cat-animation {
+  background-color: rgba(255, 87, 34, 0.2);
+  color: #ff5722;
+}
+
+.cat-accessibility {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+}
+
+.cat-inspiration {
+  background-color: rgba(255, 99, 132, 0.2);
+  color: #ff6384;
+}
+
 .resource-content {
   padding: 1rem;
   flex-grow: 1;

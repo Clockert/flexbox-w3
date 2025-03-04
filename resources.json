@@ -48,6 +48,27 @@
       "category": "UI",
       "description": "The first open-source design and prototyping platform that works for both design and code.",
       "link": "https://penpot.app"
+    },
+    {
+      "icon": "fa-palette",
+      "title": "Adobe Color",
+      "category": "Color",
+      "description": "Color tool for creating and sharing palettes.",
+      "link": "https://color.adobe.com"
+    },
+    {
+      "icon": "fa-film",
+      "title": "LottieFiles",
+      "category": "Animation",
+      "description": "Animation tool for creating and sharing Lottie animations.",
+      "link": "https://lottiefiles.com"
+    },
+    {
+      "icon": "fa-adjust",
+      "title": "Contrast Checker",
+      "category": "Accessibility",
+      "description": "Check contrast and accessibility in designs.",
+      "link": "https://contrastchecker.com"
     }
   ],
   "htmlCss": [
@@ -99,6 +120,27 @@
       "category": "CSS",
       "description": "Interactive game for learning CSS grid layout through a step-by-step gardening challenge.",
       "link": "https://cssgridgarden.com"
+    },
+    {
+      "icon": "fa-magic",
+      "title": "Animista",
+      "category": "CSS",
+      "description": "CSS animation generator with live preview.",
+      "link": "https://animista.net"
+    },
+    {
+      "icon": "fa-fill-drip",
+      "title": "CSS Gradient",
+      "category": "CSS",
+      "description": "Generator for CSS gradients.",
+      "link": "https://cssgradient.io"
+    },
+    {
+      "icon": "fa-crop",
+      "title": "Clippy (CSS Clip-Path Maker)",
+      "category": "CSS",
+      "description": "Easily create CSS clip-path shapes.",
+      "link": "https://bennettfeely.com/clippy"
     }
   ],
   "javascript": [
@@ -157,6 +199,27 @@
       "category": "JS",
       "description": "Static code analysis tool for identifying problematic patterns in JavaScript code.",
       "link": "https://eslint.org"
+    },
+    {
+      "icon": "fa-cube",
+      "title": "Three.js",
+      "category": "JS",
+      "description": "JavaScript library for 3D graphics in the browser.",
+      "link": "https://threejs.org"
+    },
+    {
+      "icon": "fa-bolt",
+      "title": "GSAP (GreenSock)",
+      "category": "JS",
+      "description": "Powerful JavaScript library for animations.",
+      "link": "https://greensock.com/gsap"
+    },
+    {
+      "icon": "fa-paint-brush",
+      "title": "P5.js",
+      "category": "JS",
+      "description": "JavaScript library for creative coding.",
+      "link": "https://p5js.org"
     }
   ],
   "tools": [
@@ -229,6 +292,27 @@
       "category": "Tools",
       "description": "Free and open source distributed version control system designed to handle everything from small to very large projects.",
       "link": "https://git-scm.com"
+    },
+    {
+      "icon": "fa-globe",
+      "title": "Webflow",
+      "category": "Tools",
+      "description": "No-code web design tool for rapid prototyping.",
+      "link": "https://webflow.com"
+    },
+    {
+      "icon": "fa-code-branch",
+      "title": "CodeSandbox",
+      "category": "Tools",
+      "description": "Online code editor for JavaScript frameworks.",
+      "link": "https://codesandbox.io"
+    },
+    {
+      "icon": "fa-plug",
+      "title": "Figma Plugins",
+      "category": "Tools",
+      "description": "Resource site for plugins and extensions in Figma.",
+      "link": "https://www.figma.com/plugins"
     }
   ]
 }
