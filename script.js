@@ -51,6 +51,14 @@ async function loadResources() {
 
   // Populate filter options dynamically
   populateFilterOptions(data);
+
+  // Add accordion functionality
+  const accordion = document.querySelector(".accordion");
+  const panel = document.querySelector(".panel");
+  accordion.addEventListener("click", function () {
+    this.classList.toggle("active");
+    panel.classList.toggle("show");
+  });
 }
 
 // Function to populate resources based on data
