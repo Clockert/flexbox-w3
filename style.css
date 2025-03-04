@@ -13,7 +13,7 @@
   --border: #000000;
   --font: "Inter", system-ui, -apple-system, sans-serif;
   --radius: 8px;
-  --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  --shadow: 0 10px 15px -3px rgba(0, 0, 0.2, 0.2),
     0 4px 6px -4px rgba(0, 0, 0, 0.1);
   --transition: all 0.2s ease;
 }
@@ -250,14 +250,14 @@ header {
   border-radius: var(--radius);
   overflow: hidden;
   transition: var(--transition);
-  border: 1px solid var(--border);
+  border: 0.2px solid var(--border);
   display: flex;
   flex-direction: column;
   box-shadow: var(--shadow);
 }
 
 .resource-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-7px);
   box-shadow: var(--shadow);
   border-color: var(--accent);
 }
