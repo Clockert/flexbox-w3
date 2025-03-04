@@ -170,6 +170,40 @@ header {
   background-color: darken(var(--accent), 10%);
 }
 
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.hamburger-line {
+  width: 2rem;
+  height: 0.25rem;
+  background: var(--text-heading);
+  border-radius: 10px;
+  transition: var(--transition);
+}
+
+.hamburger.active .hamburger-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
 /* Hero */
 .hero {
   position: relative;
@@ -180,7 +214,7 @@ header {
   padding: 5rem 0 3rem;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("assets/techbg.png"); /* Ensure the path is correct */
   background-size: cover;
   background-position: center;
   color: var(--text-secondary);
@@ -454,8 +488,33 @@ footer {
   }
 
   .nav-list {
-    justify-content: center;
-    flex-wrap: wrap;
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: var(--radius);
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .contact-btn {
+    background-color: white;
+    color: var(--primary-color);
+  }
+
+  .hamburger {
+    display: flex;
   }
 
   .newsletter-form {
@@ -467,14 +526,5 @@ footer {
   .newsletter-btn {
     width: 100%;
     border-radius: var(--radius);
-  }
-
-  /* Hide filter options and heading on mobile devices */
-  .filter-options {
-    display: none;
-  }
-
-  .filter h2 {
-    display: none;
   }
 }

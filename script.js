@@ -59,6 +59,14 @@ async function loadResources() {
     this.classList.toggle("active");
     panel.classList.toggle("show");
   });
+
+  // Add hamburger menu functionality
+  const hamburger = document.querySelector(".hamburger");
+  const navList = document.querySelector(".nav-list");
+  hamburger.addEventListener("click", function () {
+    this.classList.toggle("active");
+    navList.classList.toggle("active");
+  });
 }
 
 // Function to populate resources based on data
