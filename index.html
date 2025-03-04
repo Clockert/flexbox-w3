@@ -15,6 +15,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      rel="preload"
+      href="https://images.unsplash.com/photo-1639431682289-72b9ebb75895?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      as="image"
+    />
   </head>
   <body>
     <!-- Header with navigation -->
@@ -32,7 +37,7 @@
             <li><a href="#html-css" class="nav-link">HTML/CSS</a></li>
             <li><a href="#javascript" class="nav-link">JavaScript</a></li>
             <li><a href="#tools" class="nav-link">Tools</a></li>
-            <li><a href="#subscribe" class="subscribe-btn">Subscribe</a></li>
+            <li><a href="#contact" class="contact-btn">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -47,11 +52,13 @@
         </p>
       </section>
       <!-- Filter section -->
-      <section class="filter container">
+      <section id="filter-container" class="container">
         <h2>Filter by Category</h2>
         <div id="filter-options" class="filter-options"></div>
       </section>
 
+      <!-- UI/UX Resources -->
+      <section id="ui-ux" class="container"></section>
       <!-- UI/UX Resources -->
       <section id="ui-ux" class="container">
         <h2>UI/UX Design</h2>
@@ -90,7 +97,7 @@
       </section>
     </main>
     <footer>
-      <div class="container footer-content">
+      <div id="contact" class="container footer-content">
         <h2>Contact Us</h2>
         <form class="contact-form">
           <input type="text" name="name" placeholder="Your Name" required />

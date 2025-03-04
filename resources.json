@@ -350,6 +350,13 @@
       "categories": ["Tools", "Plugins"],
       "description": "Resource site for plugins and extensions in Figma.",
       "link": "https://www.figma.com/plugins"
+    },
+    {
+      "icon": "Oai",
+      "title": "OpenAI",
+      "categories": ["Tools", "AI"],
+      "description": "AI research and deployment company that aims to ensure that artificial general intelligence benefits all of humanity.",
+      "link": "https://openai.com"
     }
   ]
 }
