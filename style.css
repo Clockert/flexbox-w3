@@ -476,6 +476,11 @@ footer {
   background-color: darken(var(--accent), 10%);
 }
 
+.footer-text {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   h1 {
