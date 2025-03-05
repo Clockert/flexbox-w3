@@ -412,7 +412,6 @@ header {
 
 .panel.show {
   display: block;
-  max-height: 500px; /* Adjust as needed */
 }
 
 /* Footer */
