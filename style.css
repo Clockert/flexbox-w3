@@ -465,7 +465,7 @@ footer {
 .contact-form button {
   padding: 0.75rem;
   background-color: var(--accent);
-  color: var(--icon-bg);
+  color: var(--text-heading);
   border: none;
   border-radius: var(--radius);
   cursor: pointer;
@@ -509,7 +509,7 @@ footer {
   }
 
   .contact-btn {
-    background-color: white;
+    background-color: var(--icon-bg);
     color: var(--primary-color);
   }
 
