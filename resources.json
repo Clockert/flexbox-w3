@@ -103,14 +103,14 @@
     {
       "icon": "fa-frog",
       "title": "Flexbox Froggy",
-      "categories": ["CSS", "Learning"],
+      "categories": ["CSS", "Learning", "Game"],
       "description": "A game where you help Froggy and friends by writing CSS code, perfect for learning CSS flexbox.",
       "link": "https://flexboxfroggy.com"
     },
     {
       "icon": "fa-seedling",
       "title": "Grid Garden",
-      "categories": ["CSS", "Learning"],
+      "categories": ["CSS", "Learning", "Game"],
       "description": "Interactive game for learning CSS grid layout through a step-by-step gardening challenge.",
       "link": "https://cssgridgarden.com"
     },
@@ -301,7 +301,7 @@
     {
       "icon": "fa-gamepad",
       "title": "CodeCombat",
-      "categories": ["JS", "Learning"],
+      "categories": ["JS", "Learning", "Game"],
       "description": "Learn to code by playing a game.",
       "link": "https://codecombat.com/"
     },
@@ -329,21 +329,21 @@
     {
       "icon": "fa-gamepad",
       "title": "Codewars",
-      "categories": ["JS", "Learning"],
+      "categories": ["JS", "Learning", "Game"],
       "description": "Achieve code mastery through challenge.",
       "link": "https://www.codewars.com/"
     },
     {
       "icon": "fa-gamepad",
       "title": "CodeGuppy",
-      "categories": ["JS", "Learning"],
+      "categories": ["JS", "Learning", "Game"],
       "description": "JavaScript coding for kids and teens.",
       "link": "https://codeguppy.com/"
     },
     {
       "icon": "fa-gamepad",
       "title": "JavaScript30",
-      "categories": ["JS", "Learning"],
+      "categories": ["JS", "Learning", "Game"],
       "description": "30 Day Vanilla JS Coding Challenge.",
       "link": "https://javascript30.com/"
     }
