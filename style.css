@@ -412,6 +412,7 @@ header {
 
 .panel.show {
   display: block;
+  max-height: fit-content;
 }
 
 /* Footer */
