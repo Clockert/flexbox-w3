@@ -8,13 +8,6 @@
       "link": "https://figma.com"
     },
     {
-      "icon": "A",
-      "title": "Adobe XD",
-      "categories": ["UI", "Prototyping"],
-      "description": "Powerful and easy-to-use vector-based experience design platform with prototyping and sharing capabilities.",
-      "link": "https://adobe.com/products/xd.html"
-    },
-    {
       "icon": "fa-brands fa-sketch",
       "title": "Sketch",
       "categories": ["UI", "Design"],
@@ -141,6 +134,55 @@
       "categories": ["CSS", "Design"],
       "description": "Easily create CSS clip-path shapes.",
       "link": "https://bennettfeely.com/clippy"
+    },
+    {
+      "icon": "fa-play-circle",
+      "title": "Animate.css",
+      "categories": ["CSS", "Animation"],
+      "description": "A library of ready-to-use, cross-browser animations for use in your web projects.",
+      "link": "https://animate.style"
+    },
+    {
+      "icon": "fa-paint-brush",
+      "title": "Uiverse",
+      "categories": ["CSS", "Design"],
+      "description": "A collection of interactive design elements built with CSS.",
+      "link": "https://uiverse.io/"
+    },
+    {
+      "icon": "fa-layer-group",
+      "title": "Neumorphism.io",
+      "categories": ["CSS", "Design"],
+      "description": "Generate soft-UI CSS code for your projects.",
+      "link": "https://neumorphism.io/"
+    },
+    {
+      "icon": "fa-graduation-cap",
+      "title": "Hype4 Academy",
+      "categories": ["CSS", "Learning"],
+      "description": "Learn CSS and web design with interactive tutorials.",
+      "link": "https://hype4.academy/"
+    },
+    {
+      "icon": "fa-mouse-pointer",
+      "title": "CSS Button Creator",
+      "categories": ["CSS", "Design"],
+      "description": "Create custom CSS buttons with ease.",
+      "link": "https://cssbuttoncreator.com/"
+    },
+    {
+      "icon": "fa-code",
+      "title": "Pure CSS",
+      "categories": ["CSS", "Framework"],
+      "description": "A set of small, responsive CSS modules that you can use in every web project.",
+      "link": "https://pure-css.github.io/"
+    },
+    {
+      "icon": "fa-filter",
+      "title": "CSS Filters",
+      "categories": ["CSS", "Design"],
+      "description": "A tool to create and customize CSS filter effects.",
+      "link": "https://www.cssfilters.co/"
     }
   ],
   "javascript": [
@@ -220,6 +262,13 @@
       "categories": ["JS", "Creative Coding"],
       "description": "JavaScript library for creative coding.",
       "link": "https://p5js.org"
+    },
+    {
+      "icon": "fa-clock",
+      "title": "30 Seconds of Code",
+      "categories": ["JS", "Snippets"],
+      "description": "Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
+      "link": "https://www.30secondsofcode.org/"
     }
   ],
   "tools": [
