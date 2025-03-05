@@ -183,6 +183,34 @@
       "categories": ["CSS", "Design"],
       "description": "A tool to create and customize CSS filter effects.",
       "link": "https://www.cssfilters.co/"
+    },
+    {
+      "icon": "fa-code",
+      "title": "FreeFrontend",
+      "categories": ["HTML", "CSS", "Resources"],
+      "description": "A collection of free HTML and CSS resources for web developers.",
+      "link": "https://freefrontend.com/"
+    },
+    {
+      "icon": "fa-bars",
+      "title": "HTML Menu",
+      "categories": ["HTML", "CSS", "Resources"],
+      "description": "A collection of free HTML and CSS menus for web developers.",
+      "link": "https://htmlmenu.com/"
+    },
+    {
+      "icon": "fa-book",
+      "title": "HTML Reference",
+      "categories": ["HTML", "Documentation"],
+      "description": "A free guide to HTML, with interactive examples and a reference for all elements and attributes.",
+      "link": "https://htmlreference.io/"
+    },
+    {
+      "icon": "fa-globe",
+      "title": "web.dev",
+      "categories": ["HTML", "CSS", "Resources"],
+      "description": "Comprehensive resource for web developers to learn and improve their skills.",
+      "link": "https://web.dev/"
     }
   ],
   "javascript": [
@@ -269,6 +297,55 @@
       "categories": ["JS", "Snippets"],
       "description": "Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
       "link": "https://www.30secondsofcode.org/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "CodeCombat",
+      "categories": ["JS", "Learning"],
+      "description": "Learn to code by playing a game.",
+      "link": "https://codecombat.com/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "Untrusted",
+      "categories": ["JS", "Game"],
+      "description": "A meta-JavaScript adventure game.",
+      "link": "https://untrustedgame.com/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "CSSBattle",
+      "categories": ["CSS", "Game"],
+      "description": "CSS code golf game.",
+      "link": "https://cssbattle.dev/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "Elevator Saga",
+      "categories": ["JS", "Game"],
+      "description": "Programming game about elevators.",
+      "link": "https://play.elevatorsaga.com/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "Codewars",
+      "categories": ["JS", "Learning"],
+      "description": "Achieve code mastery through challenge.",
+      "link": "https://www.codewars.com/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "CodeGuppy",
+      "categories": ["JS", "Learning"],
+      "description": "JavaScript coding for kids and teens.",
+      "link": "https://codeguppy.com/"
+    },
+    {
+      "icon": "fa-gamepad",
+      "title": "JavaScript30",
+      "categories": ["JS", "Learning"],
+      "description": "30 Day Vanilla JS Coding Challenge.",
+      "link": "https://javascript30.com/"
     }
   ],
   "tools": [
